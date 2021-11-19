@@ -1,0 +1,52 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    background: linear-gradient(to right, rgb(245, 162, 245), #271a1c);
+    align-items: center;
+}
+.Navbar_logo{
+    margin-left: 55px;
+}
+.Navbar_logo img{
+    height: 60px;
+    width: 60px;
+    /* width can be removed */
+}
+
+.Navbar_items ul{
+    z-index: 1;
+    display: flex;
+}
+.Navbar_items ul li{
+    list-style: none;
+}
+.Navbar_items ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 11px;
+}
+
+.Navbar_connect li{
+    list-style: none;
+    background: #4C4F56;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+}
+.Navbar_connect li .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.Navbar_connect li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 11px;
+}
+.Navbar_connect:hover{
+    opacity: 0.6;
+}

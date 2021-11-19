@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Curasol from './components/Curasol';
+import Navbar from './components/Navbar';
+import Roadmap from './components/Roadmap';
+import Starter from './components/Starter';
+import Teams from './components/Teams';
+import Timer from './components/Timer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Timer />
+      <Starter />
+      <hr />
+      <About />
+      <hr />
+      <Curasol />
+      <hr />
+      <Roadmap />
+      <hr />
+      <Teams />
     </div>
   );
 }

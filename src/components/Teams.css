@@ -1,0 +1,111 @@
+.Teams{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0;
+}
+.Teams h1{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 70px;
+}
+.Team_ceo{
+    background: linear-gradient(to right, rgb(235, 114, 135), purple);
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Team_ceo img{
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.Ceo_detail{
+    margin-top: 25px;
+    display: contents;
+    flex-direction: column;
+    text-align: center;
+}
+.crown{
+    margin-top: 22px;
+    height: 29px;
+    width: 44px;
+}
+.Ceo_detail h1{
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 2rem;
+}
+.Ceo_detail p{
+    font-weight: bold;
+    color: gray;
+}
+
+.Ceo_social{
+    display: flex;
+    align-items: center;
+}
+.Ceo_social img{
+    height: 28px;
+    width: 28px;
+    margin-right: 11px;
+}
+
+
+/* EMPLOYEE */
+.Team_member{
+    display: flex;
+    margin-top: 66px;
+    margin-right: 55px;
+}
+.Team_member_list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 75px;
+}
+.Team_employee{
+    background: linear-gradient(to right, rgb(164, 255, 128), purple);
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Team_employee img{
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid black;
+}
+
+.Employee_detail{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Employee_detail h1{
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 2rem;
+}
+.Employee_detail p{
+    font-weight: bold;
+    color: gray;
+}
+
+.Employee_social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Employee_social img{
+    height: 28px;
+    width: 28px;
+    margin-right: 11px;
+}
